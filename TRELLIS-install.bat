@@ -17,8 +17,8 @@ python -m pip install --upgrade pip wheel
 python -m pip install setuptools==75.8.2
 
 echo *** Installing requirements
-pip install -r %START_DIR%/requirements-torch.txt
-pip install -r %START_DIR%/requirements-other.txt
+pip install -r "%START_DIR%"\requirements-torch.txt
+pip install -r "%START_DIR%"\requirements-other.txt
 
 echo *** Set Environment Variables
 set ATTN_BACKEND=flash-attn
