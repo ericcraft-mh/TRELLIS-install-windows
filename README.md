@@ -27,8 +27,11 @@ These instructions were a culmination of resources including [TRELLIS/setup.sh](
 ## Prerequistes
 [Build Tools for Visual Studio 2022](https://visualstudio.microsoft.com/downloads/?q=build+tools#build-tools-for-visual-studio-2022)</br>
 [CUDA 12.4](https://developer.nvidia.com/cuda-12-4-0-download-archive?target_os=Windows&target_arch=x86_64&target_version=11&target_type=exe_local)</br>
-[Python 3.10.11](https://www.python.org/downloads/release/python-31011/)
-## Install Process (cmd\bat)
+[Python 3.10.11](https://www.python.org/downloads/release/python-31011/)</br>
+Download and place in TRELLIS folder [requirements-torch.txt](requirements-torch.txt).</br>
+Download and place in TRELLIS folder [requirements-other.txt](requirements-other.txt).</br>
+Download and run [TRELLIS-install.bat](TRELLIS-install.bat), or follow manual steps below.
+## Manual Install Process (cmd\bat)
 ###### Visual Studio Build Tools 2022
 ```bat
 vs_buildtools.exe --norestart --passive --add Microsoft.VisualStudio.Workload.VCTools --includeRecommended
