@@ -1,6 +1,7 @@
 @echo off
 
 cd /d "%~dp0"
+set START_DIR=%CD%
 echo *** The current directory is: %cd%
 
 echo *** Cloning TRELLIS repository
@@ -16,8 +17,8 @@ python -m pip install --upgrade pip wheel
 python -m pip install setuptools==75.8.2
 
 echo *** Installing requirements
-pip install -r requirements-torch.txt
-pip install -r requirements-other.txt
+pip install -r %START_DIR%/requirements-torch.txt
+pip install -r %START_DIR%/requirements-other.txt
 
 echo *** Set Environment Variables
 set ATTN_BACKEND=flash-attn
