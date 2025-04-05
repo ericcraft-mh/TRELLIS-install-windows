@@ -21,7 +21,10 @@ These instructions were a culmination of resources including [TRELLIS/setup.sh](
 
 ###### Gradio won't launch
 **`Issue:`** Trying to run app.py throws `ERROR: Exception in ASGI application`.</br>
-**`Solution:`** Ensure you are using `pydantic==2.10.6`.
+**`Solution:`** Ensure you are using `pydantic==2.10.6`.</br></br>
+
+**`Issue:`** `ModuleNotFoundError: No module named 'open3d'`.</br>
+**`Solution:`** Ensure you are using `open3d==0.19.0`.
 
 # Successful Build
 ## Prerequistes
