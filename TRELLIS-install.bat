@@ -1,7 +1,6 @@
 @echo off
 
 cd /d "%~dp0"
-cd ..
 echo *** The current directory is: %cd%
 
 echo *** Cloning TRELLIS repository
