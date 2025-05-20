@@ -32,7 +32,7 @@ git+https://github.com/NVlabs/nvdiffrast.git
 git+https://github.com/JeffreyXiang/diffoctreerast.git
 git+https://github.com/autonomousvision/mip-splatting.git#subdirectory=submodules/diff-gaussian-rasterization/
 
-spconv-cu120==2.3.6
+spconv-cu124==2.3.8
 
 gradio==4.44.1
 gradio_litmodel3d==0.0.1
